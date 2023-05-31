@@ -2,6 +2,7 @@ import express from 'express'
 import userRouter from './routers/user.router.js'
 
 const app = express()
+app.use(express.json())
 
 //endpoints
 // http://localhost:8080/
